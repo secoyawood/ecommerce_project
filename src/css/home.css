@@ -1,0 +1,18 @@
+.Header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 10px 10px grey;
+}
+
+a {
+    margin: 0% 20%;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
