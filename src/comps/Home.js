@@ -5,12 +5,14 @@ function Home() {
     return (
       <div className="Home">
         <div className="Header">
-        <h1>Ecom</h1>
-        <div className="header-links">
+          <h1>Ecom</h1>
+          <input type="text" placeholder="Search Products"></input>
+          <div className="header-links">
             <a href="/">Home</a>
             <a href="/store">Store</a>
+            <a href="/cart">Cart</a>
             <a href="/account">Account</a>
-        </div>
+          </div>
         </div>
       </div>
     );
