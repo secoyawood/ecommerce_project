@@ -1,14 +1,18 @@
 import '../css/home.css';
 import React, {useState, useEffect} from 'react';
-import Cart from '../cart.png';
+import Anvil from '../Anvil.png';
+import Tech from '../Cool-Tech-Image.jpg';
 
 function Home() {
     return (
       <div className="Home">
         <div className="Header">
-          <div className="move">
-            <img className="shopping-cart" src={Cart}/>
-            <h1>Ecom</h1>
+          <div className="logo">
+            <img className="hammer-anvil" src={Anvil}/>
+          </div>
+
+          <div className="spacing">
+            <h1>Hephaestus Refurbish</h1>
           </div>
 
           <input className="search-bar" type="text" placeholder="Search Products"></input>
@@ -20,9 +24,19 @@ function Home() {
           </div>
         </div>
 
-        <div className="happy-move">
+        {/* <div className="right-edge">
           <div className="right-side-box">
            <h2>Side</h2>
+          </div>
+        </div> */}
+
+        <div className="Body">
+          <div className="image-box">
+            <img className="tech-image" src={Tech}/>
+          </div>
+
+          <div className="text-box">
+
           </div>
         </div>
       </div>
