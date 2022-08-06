@@ -29,12 +29,12 @@ function Home() {
             <img className="tech-image" src={Tech}/>
           </div>
 
-          <div className="happy-move">
-            <div className="right-edge">
+          <div className="move-to-right">
+            <div className="edge-box">
               <h2>Side</h2>
             </div>
           </div>
-          
+
           <div className="text-box">
 
           </div>

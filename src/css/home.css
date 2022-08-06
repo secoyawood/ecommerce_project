@@ -88,7 +88,7 @@ h1 {
     z-index: 1;
   }
 
-.happy-move {
+.move-to-right {
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -96,7 +96,7 @@ h1 {
     /* border: 2px solid pink; */
 }
 
-  .right-edge {
+  .edge-box {
     position: relative;
     z-index: 2;
     background-color: black;
