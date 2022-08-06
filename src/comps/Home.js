@@ -31,12 +31,22 @@ function Home() {
 
           <div className="move-to-right">
             <div className="edge-box">
-              <h2>Side</h2>
+              <h2>Recent</h2>
+              <a href="/recent">Recent</a>
             </div>
           </div>
 
           <div className="text-box">
-
+            <div className="text">
+              <p>
+                This is a test for the size. I just wanted to 
+                play with the paragraph stuff. So this is where
+                the website's description and goal would be 
+                listed. It would also include some basic information
+                about why the user should choose this site over 
+                another similar site. Does that sound correct?
+              </p>
+            </div>
           </div>
         </div>
 
