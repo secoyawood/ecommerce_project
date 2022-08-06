@@ -24,21 +24,23 @@ function Home() {
           </div>
         </div>
 
-        {/* <div className="right-edge">
-          <div className="right-side-box">
-           <h2>Side</h2>
-          </div>
-        </div> */}
-
         <div className="Body">
           <div className="image-box">
             <img className="tech-image" src={Tech}/>
           </div>
 
+          <div className="happy-move">
+            <div className="right-edge">
+              <h2>Side</h2>
+            </div>
+          </div>
+          
           <div className="text-box">
 
           </div>
         </div>
+
+
       </div>
     );
   }
